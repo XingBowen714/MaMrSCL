@@ -1,0 +1,1 @@
+python -u run_bs.py --cuda_id 6 --dataset NYT --batch_size 64 --num_train_epochs 100 --seed 2022 --bert 4 --bs 0.5 --weight_decay 0.0 --dropout 0.1 --cl_alpha 0.0001 --num_neg_samples 32 --temperature 0.05 --lr_schedual linear_decay --lw_alpha 0.1 --schedual_lr_rate 0.5 --mrd_alpha 1.0
